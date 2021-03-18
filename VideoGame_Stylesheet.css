@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+body{
+    font-family: "verdena";
+}
+.title{
+    padding: 18px;
+    position: center;
+    background: #262626;
+    text-align: center;
+    font-family: verdena;
+    font-size: xxx-large;
+    color: #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+a{
+    color: #cccccc;
+    text-decoration: none;
+}
+.wrapper .sidebar{
+position: fixed;
+left: 0;
+top:0;
+width: 20vw;
+height: 100vh;
+background: #262626;
+border-right: 1px solid #cccccc;
+}
+.wrapper .sidebar #sidebar_title{
+color: #cccccc;
+text-align: center;
+line-height: 90px;
+border-bottom: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+margin-bottom: 50px;
+}
+.wrapper .sidebar ul li{
+    list-style: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+i{
+margin-right: 8px; 
+}
+.wrapper .sidebar .Social_Media{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    display: flex;
+    overflow-y: hidden;
+}
+.wrapper .sidebar .Social_Media a{
+    margin: 0 15px;
+    background: #424141;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .sidebar .Social_Media a:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+    overflow-x: hidden;
+}
+.wrapper .sidebar .Social_Media a i{
+    margin: 0 auto;
+}
+.wrapper .Center_Content{
+    width: 80vw;
+    margin-left: 20vw;
+}
+section{
+    height: 100vh;
+    padding: 30px;
+
+}
+#division_1{
+    background:linear-gradient(to right, #2980b9, #2c3e50);
+}
+#division_2{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+#division_3{
+    background:linear-gradient(to right, #2980b9, #2c3e50);
+}
+#division_4{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+#division_5{
+    background:linear-gradient(to right, #44a08d, #093637);  
+}
+#division_6{
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+#division_7{
+    background:linear-gradient(to right, #44a08d, #093637); 
+}
+#division_8{
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+#division_9{
+    background: linear-gradient(to right, #fdc830, #f37335);
+}
+#division_10{
+    background:linear-gradient(to right, #fc4a1a, #f7b733);
+}
+#division_11{
+    background: linear-gradient(to right, #fdc830, #f37335);
+}
+#division_12{
+    background:linear-gradient(to right, #fc4a1a, #f7b733);
+}
+#division_13{
+    background:linear-gradient(to right,  #cbb4d4, #20002c);
+}
+#division_14{
+    background:linear-gradient(to right, #20002c, #cbb4d4);
+}
+#division_15{
+    background:linear-gradient(to right,  #cbb4d4, #20002c);
+}
+#division_16{
+    background:linear-gradient(to right, #20002c, #cbb4d4);
+}
