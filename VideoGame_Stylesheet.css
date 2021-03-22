@@ -12,13 +12,24 @@ body{
     background: #262626;
     text-align: center;
     font-family: verdena;
-    font-size: xxx-large;
+    font-size: 50px;
     color: #cccccc;
     border-bottom: 1px solid #cccccc;
+    word-spacing: 20px;
 }
 a{
     color: #cccccc;
     text-decoration: none;
+}
+.wrapper .Center_Content #submit{
+    background-color: black;
+  border: 3px groove white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 .wrapper .sidebar{
 position: fixed;
@@ -36,6 +47,7 @@ line-height: 90px;
 border-bottom: 1px solid #cccccc;
 border-right: 1px solid #cccccc;
 margin-bottom: 50px;
+font-size: 45px;
 }
 .wrapper .sidebar ul li{
     list-style: none;
@@ -72,6 +84,68 @@ margin-right: 8px;
 .wrapper .sidebar .Social_Media a i{
     margin: 0 auto;
 }
+.wrapper .Center_Content .Example_List{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+.wrapper .Center_Content .Info_List{
+    width: 300px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+.wrapper .Center_Content #welcome{
+    width: 300px;
+    border: 2px double #cccccc;;
+    margin: 5px;
+    position: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 30px;
+    padding-left: 275px;
+    padding-right: 275px;
+    font-family: 'Lucida Sans';
+}
+.wrapper .Center_Content #example{
+    background-color:#cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px double black;
+    color: black;
+    width: 150px;
+    position: left;
+    word-spacing: 3px;
+    font-size: 12px;
+    font-family: 'Lucida Sans';
+}
+.wrapper .Center_Content #showText{
+    background-color: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px double black;
+    color: black;
+    width: 350px;
+    position: left;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+}
 .wrapper .Center_Content{
     width: 80vw;
     margin-left: 20vw;
@@ -79,7 +153,6 @@ margin-right: 8px;
 section{
     height: 100vh;
     padding: 30px;
-
 }
 #division_1{
     background:linear-gradient(to right, #2980b9, #2c3e50);

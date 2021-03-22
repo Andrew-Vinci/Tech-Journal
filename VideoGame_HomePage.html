@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <script type = "text/javascript" src = ""></script>
+    <script type = "text/javascript" src = "VideoGame_HomePageJava.js"></script>
     <script src="https://kit.fontawesome.com/17bc1b1a14.js" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "VideoGame_Stylesheet.css">
 </head>
 <body>
 
-    <h1 class = "title">Video Game Archives Homepage</h1>
+    <h1 class = "title">Crypto Corner Home Page</h1>
     
     <div class = "wrapper">
 
@@ -19,9 +19,9 @@
             <h1 id = "sidebar_title">Sidebar Navigation</h1>
             <ul>
                 <li><a href = "VideoGame_HomePage.html"><i class="fas fa-home"></i>Home Page</a></li>
-                <li><a href = "VideoGame_Hardware.html"><i class="fas fa-gamepad"></i></i>Hardware</a></li>
-                <li><a href = "VideoGame_Software.html"><i class="fab fa-steam-square"></i></i>Software</a></li>
-                <li><a href = "VideoGame_Organizer.html"><i class="fas fa-sitemap"></i></i></i>Organizer</a></li>
+                <li><a href = "VideoGame_Hardware.html"><i class="fab fa-bitcoin"></i>Coins</a></li>
+                <li><a href = "VideoGame_Software.html"><i class="fas fa-balance-scale"></i>Software</a></li>
+                <li><a href = "VideoGame_Organizer.html"><i class="fas fa-sitemap"></i>Organizer</a></li>
             </ul>
         <div class = "Social_Media">
             <a href = "#"><i class="fab fa-instagram-square"></i></a>
@@ -31,25 +31,55 @@
     </div>
         <div class = "Center_Content">
             <section id = "division_1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
-                    suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
-                    temporibus quia ab similique minus dolore fuga quis ipsam.</p>
-            </section><section id = "division_2">
+                <h1 id = "welcome">Welcome to the Crypto Corner!</h1>
+                <p> 
+                    <h2 id = "showText">Search for Cryprocurrency by Abbreviation and Currency</h2>
+                    <p>
+                        <p id = "example">Popular Coin Examples:</p>
+                    <div class = "Example_List">
+                            <li>Bitcoin: BTC-USD</li>
+                            <li>Ethereum: ETH-EUR</li>
+                            <li>Cardano: ADA-CAD</li>
+                            <li>Chainlink: LINK-USD</li>
+                            <li>Litecoin: LTC-USD</li>
+                            <li>Cosmos: ATOM-USD</li>
+                            <li>Uniswap: UNI-USD</li>
+                     </div>
+                    </p>
+                        <input id = "search"></input>
+                    <p></p>
+                    <button id = "submit" onclick = coinSearch()>Submit</button>
+                <div class = "Info_List">
+                        <li>Name: <span id = "name"></span></li>
+                            <p></p>
+                        <li>Currency: <span id = "currency"></span></li>
+                            <p></p>
+                        <li>Price: <span id = "price"></span></li>
+                            <p></p>
+                        <li>Volume: <span id = "volume"></span></li>
+                            <p></p>
+                </div>
+            </p>
+            </section>
+            <!---
+            <section id = "division_2">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
                     suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
                     temporibus quia ab similique minus dolore fuga quis ipsam.</p>
             </section>
-        </section><section id = "division_3">
+        </section>
+        <section id = "division_3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
                 suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
                 temporibus quia ab similique minus dolore fuga quis ipsam.</p>
         </section>
-    </section><section id = "division_4">
+    </section>
+    <section id = "division_4">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
             suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
             temporibus quia ab similique minus dolore fuga quis ipsam.</p>
     </section>
-
+    --->
         </div>
     </div>
 
