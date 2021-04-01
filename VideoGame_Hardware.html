@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type = "text/javascript" src = "VideoGame_HardwareJava.js"></script>
     <script src="https://kit.fontawesome.com/17bc1b1a14.js" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "VideoGame_Stylesheet.css">
 </head>
@@ -19,8 +20,9 @@
             <ul>
                 <li><a href = "VideoGame_HomePage.html"><i class="fas fa-home"></i>Home Page</a></li>
                 <li><a href = "VideoGame_Hardware.html"><i class="fab fa-bitcoin"></i>Coins</a></li>
-                <li><a href = "VideoGame_Software.html"><i class="fas fa-balance-scale"></i>Software</a></li>
-                <li><a href = "VideoGame_Organizer.html"><i class="fas fa-sitemap"></i></i></i>Organizer</a></li>
+                <li><a href = "VideoGame_Software.html"><i class="fas fa-balance-scale"></i>Comparison</a></li>
+                <li><a href = "VideoGame_News.html"><i class= "far fa-newspaper"></i>News</a></li>
+                <li><a href = "VideoGame_Organizer.html"><i class="fas fa-wallet"></i>Wallet</a></li>
             </ul>
         <div class = "Social_Media">
             <a href = "#"><i class="fab fa-instagram-square"></i></a>
@@ -30,25 +32,103 @@
     </div>
         <div class = "Center_Content">
             <section id = "division_5">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
-                    suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
-                    temporibus quia ab similique minus dolore fuga quis ipsam.</p>
-            </section><section id = "division_6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
-                    suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
-                    temporibus quia ab similique minus dolore fuga quis ipsam.</p>
+                <p>
+                    <script>
+                        coinDisplay();
+                    </script>
+                    <img class = "bitPic" src = "https://en.bitcoin.it/w/images/en/c/c4/BC_Logotype_Reverse.png" 
+                    alt = "Bitcoin Logo" length = 70px height = 70px>
+                    
+
+                    <div class = "bitcoinInfo">
+                        <ul class = "top">Name:</ul>
+                        <ul id = "name" class = "bottom"></ul>
+                        <ul class = "top">Price in USD:</ul>
+                        <ul id = "price" class = "bottom"></ul>
+                        <ul class = "top">Market Cap:</ul>
+                        <ul id = "marketCap" class = "bottom"></ul>
+                        <ul class = "top">Percent Changed in an Hour:</ul>
+                        <ul id = "hourChange" class = "bottom"></ul>
+                        <ul class = "top">Percent Changed in a Week:</ul>
+                        <ul id = "weekChange" class = "bottom"></ul>
+                 </div>
+
+                 <div class = "bitcoinBackground">
+                    <p class = "bitText">
+                        <div class = "bitWhitePaperTitle">What is Bitcoin?</div>
+
+                        <div class = "bitContent">
+                            The world’s first cryptocurrency, 
+                            Bitcoin is stored and exchanged securely on the internet through a digital ledger known as a blockchain. 
+                            Bitcoins are divisible into smaller units known as satoshis — each satoshi is worth 0.00000001 bitcoin.
+                        </div>
+
+                    </p>
+
+                 </div>
+
+                </p>
             </section>
-        </section><section id = "division_7">
+            <section id = "division_6">
+                <p>
+                    <script>
+                        coinDisplay2();
+                    </script>
+                    <img class = "ethPic" src = "https://ethereum.org/static/8ea7775026f258b32e5027fe2408c49f/ed396/ethereum-logo-landscape-black.png" 
+                    alt = "Ethereum Logo" length = 90px height = 90px>
+                    
+
+                    <div class = "ethereumInfo">
+                        <ul class = "top">Name:</ul>
+                        <ul id = "name2" class = "bottom"></ul>
+                        <ul class = "top">Price in USD:</ul>
+                        <ul id = "price2" class = "bottom"></ul>
+                        <ul class = "top">Market Cap:</ul>
+                        <ul id = "marketCap2" class = "bottom"></ul>
+                        <ul class = "top">Percent Changed in an Hour:</ul>
+                        <ul id = "hourChange2" class = "bottom"></ul>
+                        <ul class = "top">Percent Changed in a Week:</ul>
+                        <ul id = "weekChange2" class = "bottom"></ul>
+                 </div>
+
+                 <div class = "ethereumBackground">
+                    <p class = "ethText">
+                        <div class = "ethWhitePaperTitle">What is Ethereum?</div>
+
+                        <div class = "ethContent">
+                            Ethereum is a decentralized computing platform that uses ETH (also called Ether) to pay transaction fees (or “gas”).
+                            <div> </div>
+                            Developers can use Ethereum to run decentralized applications (dApps) and issue new crypto assets, known as Ethereum tokens.
+                            <div> </div>
+                            Ethereum is a decentralized blockchain platform founded in 2014 by Vitalik Buterin.
+                            <div> </div>
+                            Like Bitcoin, Ethereum is an open-source project that is not owned or operated by a single individual. This means that anyone, anywhere can download the software and begin interacting with the network.
+                            <div> </div>
+                            Unlike the Bitcoin network, the primary purpose of Ethereum is not to act as a form of currency, but to allow those interacting with the Ethereum Network to make and operate 'smart contracts' without having to trust each other or use a middleman.
+                            <div> </div>
+                            Smart contracts are applications that run exactly as programmed without any possibility of downtime, censorship, fraud, or third party interference - a smart contract will work exactly the same every time it is used.
+                        </div>
+
+                    </p>
+
+                 </div>
+
+                </p>
+            </section>
+            <!---
+        </section>
+        <section id = "division_7">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
                 suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
                 temporibus quia ab similique minus dolore fuga quis ipsam.</p>
         </section>
-    </section><section id = "division_8">
+    </section>
+    <section id = "division_8">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, 
             suscipit magnam! Totam quae tempora id illo dolor tenetur nihil ducimus inventore, 
             temporibus quia ab similique minus dolore fuga quis ipsam.</p>
     </section>
-
+    --->
         </div>
     </div>
 </body>
