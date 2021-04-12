@@ -3,9 +3,11 @@
     margin:0;
     overflow-x: hidden;
 }
+/*Targets Body of Document - Universal*/
 body{
     font-family: "verdena";
 }
+/*Targets the title of Document - Universal*/
 .title{
     padding: 18px;
     position: center;
@@ -17,20 +19,12 @@ body{
     border-bottom: 1px solid #cccccc;
     word-spacing: 20px;
 }
+/*Targets 'a' tag of Document - Universal*/
 a{
     color: #cccccc;
     text-decoration: none;
 }
-.wrapper .Center_Content #submit{
-    background-color: black;
-  border: 3px groove white;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+/*Targets Sidebar Class - Universal*/
 .wrapper .sidebar{
 position: fixed;
 left: 0;
@@ -40,6 +34,7 @@ height: 100vh;
 background: #262626;
 border-right: 1px solid #cccccc;
 }
+/*Targets ID sidebar title - Universal*/
 .wrapper .sidebar #sidebar_title{
 color: #cccccc;
 text-align: center;
@@ -49,15 +44,18 @@ border-right: 1px solid #cccccc;
 margin-bottom: 50px;
 font-size: 45px;
 }
+/*Targets list of sidebar - Universal*/
 .wrapper .sidebar ul li{
     list-style: none;
     padding: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+/*Targets 'i' tag of document - Universal*/
 i{
 margin-right: 8px; 
 }
+/*Targets Social_Media Class - Universal*/
 .wrapper .sidebar .Social_Media{
     position: absolute;
     bottom: 50px;
@@ -67,6 +65,7 @@ margin-right: 8px;
     display: flex;
     overflow-y: hidden;
 }
+/*Targets 'a' tag in Social_Media - Universal*/
 .wrapper .sidebar .Social_Media a{
     margin: 0 15px;
     background: #424141;
@@ -76,14 +75,120 @@ margin-right: 8px;
     display: flex;
     align-items: center;
 }
+/*Targets Social_Media class and allows for Hover Command - Universal*/
 .wrapper .sidebar .Social_Media a:hover{
     transition: 1s;
     transform: rotate(360deg);
     overflow-x: hidden;
 }
+/*Targets Social_Media Class 'a' tag and 'i' tag - Universal*/
 .wrapper .sidebar .Social_Media a i{
     margin: 0 auto;
 }
+/*Targets the Center_Content class - Universal*/
+.wrapper .Center_Content{
+    width: 80vw;
+    margin-left: 20vw;
+}
+/*Targets all 'section' tags - Universal*/
+section{
+    height: 100vh;
+    padding: 30px;
+}
+
+/*Targets for the 'division_' classes for the different Sections*/
+
+/*Page 1 CSS Division ID's*/
+
+#division_1{
+    background:linear-gradient(to right, #2980b9, #2c3e50);
+}
+#division_2{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+#division_3{
+    background:linear-gradient(to right, #2980b9, #2c3e50);
+}
+#division_4{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+}
+
+/*Page 2 CSS Division ID's*/
+
+#division_5{
+    background:linear-gradient(to right, #0a725d, #1e6263);  
+}
+#division_6{
+    background: linear-gradient(to right, #1e6263,#0a725d);
+}
+#division_7{
+    background:linear-gradient(to right, #44a08d, #093637); 
+}
+#division_8{
+    background: linear-gradient(to right, #00bf8f, #001510);
+}
+
+/*Page 3 CSS Division ID's*/
+
+#division_9{
+    background: linear-gradient(to right, #c43287, #50023f);
+}
+#division_10{
+    background:linear-gradient(to right, #50023f, #c43287);
+}
+#division_11{
+    background: linear-gradient(to right, #fdc830, #f37335);
+}
+#division_12{
+    background:linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+/*Page 4 CSS Division ID's*/
+
+#division_13{
+    background:linear-gradient(to right,  #cbb4d4, #20002c);
+}
+#division_14{
+    background:linear-gradient(to right, #20002c, #cbb4d4);
+}
+#division_15{
+    background:linear-gradient(to right,  #cbb4d4, #20002c);
+}
+#division_16{
+    background:linear-gradient(to right, #20002c, #cbb4d4);
+}
+
+/*Page 5 CSS Division ID's*/
+
+#division_17{
+    background:linear-gradient(to right, #ed213a, #93291e);
+}
+#division_18{
+    background:linear-gradient(to right, #93291e,#ed213a);
+}
+#division_19{
+    background:linear-gradient(to right,  #ed213a, #93291e);
+}
+#division_20{
+    background:linear-gradient(to right, #93291e, #ed213a);
+}
+
+/*Page 1 CSS - Coins/"Hardware"*/
+
+/*Submit Button CSS*/
+.wrapper .Center_Content #submit{
+background-color: black;
+  border: 3px groove white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*Page 1 - Currency Examples for Submit Button*/
+
 .wrapper .Center_Content .Example_List{
     width: 300px;
     border: 4px double #cccccc;
@@ -95,6 +200,9 @@ margin-right: 8px;
     background-color: black;
     font-family: 'Lucida Sans';
 }
+
+/*Page 1 - Currency Responses from API*/
+
 .wrapper .Center_Content .Info_List{
     width: 300px;
     border: 2px double #cccccc;
@@ -106,6 +214,9 @@ margin-right: 8px;
     background-color: black;
     font-family: 'Lucida Sans';
 }
+
+/*Page 1 - Welcome Banner*/
+
 .wrapper .Center_Content #welcome{
     width: 300px;
     border: 2px double #cccccc;;
@@ -122,6 +233,9 @@ margin-right: 8px;
     padding-right: 275px;
     font-family: 'Lucida Sans';
 }
+
+/*Page 1 - Example Banner*/
+
 .wrapper .Center_Content #example{
     background-color:#cccccc;
     padding-left: 10px;
@@ -134,6 +248,9 @@ margin-right: 8px;
     font-size: 12px;
     font-family: 'Lucida Sans';
 }
+
+/*Page 1 - Search Banner*/
+
 .wrapper .Center_Content #showText{
     background-color: #cccccc;
     padding-left: 20px;
@@ -146,74 +263,8 @@ margin-right: 8px;
     font-size: 18px;
     font-family: 'Lucida Sans';
 }
-.wrapper .Center_Content{
-    width: 80vw;
-    margin-left: 20vw;
-}
-section{
-    height: 100vh;
-    padding: 30px;
-}
-#division_1{
-    background:linear-gradient(to right, #2980b9, #2c3e50);
-}
-#division_2{
-    background: linear-gradient(to right, #2c3e50, #3498db);
-}
-#division_3{
-    background:linear-gradient(to right, #2980b9, #2c3e50);
-}
-#division_4{
-    background: linear-gradient(to right, #2c3e50, #3498db);
-}
-#division_5{
-    background:linear-gradient(to right, #0a725d, #1e6263);  
-}
-#division_6{
-    background: linear-gradient(to right, #1e6263,#0a725d);
-}
-#division_7{
-    background:linear-gradient(to right, #44a08d, #093637); 
-}
-#division_8{
-    background: linear-gradient(to right, #00bf8f, #001510);
-}
-#division_9{
-    background: linear-gradient(to right, #fdc830, #f37335);
-}
-#division_10{
-    background:linear-gradient(to right, #fc4a1a, #f7b733);
-}
-#division_11{
-    background: linear-gradient(to right, #fdc830, #f37335);
-}
-#division_12{
-    background:linear-gradient(to right, #fc4a1a, #f7b733);
-}
-#division_13{
-    background:linear-gradient(to right,  #cbb4d4, #20002c);
-}
-#division_14{
-    background:linear-gradient(to right, #20002c, #cbb4d4);
-}
-#division_15{
-    background:linear-gradient(to right,  #cbb4d4, #20002c);
-}
-#division_16{
-    background:linear-gradient(to right, #20002c, #cbb4d4);
-}
-#division_17{
-    background:linear-gradient(to right, #ed213a, #93291e);
-}
-#division_18{
-    background:linear-gradient(to right, #93291e,#ed213a);
-}
-#division_19{
-    background:linear-gradient(to right,  #ed213a, #93291e);
-}
-#division_20{
-    background:linear-gradient(to right, #93291e, #ed213a);
-}
+
+
 
 /*Page 2 CSS - Coins*/
 
@@ -272,7 +323,7 @@ text-decoration: underline;
 text-align: center;
 }
 
-/**/
+/*Page 2 CSS - Coins Continued*/
 
 .wrapper .Center_Content .ethereumInfo{
     width: 350px;
@@ -326,4 +377,135 @@ font-family: "Lucida Sans";
 font-size: 30px;
 text-decoration: underline;
 text-align: center;
+}
+
+
+/*Page 3 CSS - Comparison*/
+
+
+.wrapper .Center_Content .comparisonCoin1{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .comparisonCoin2{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 500px;
+    margin-top: -425px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+/*Page 3 CSS- Submit Button 2*/
+
+.wrapper .Center_Content #submit2{
+    background-color: black;
+      border: 3px groove white;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
+
+/*Page 4 CSS - News*/
+
+
+.wrapper .Center_Content .newsHeadline{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: rgb(56, 59, 56);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .newsInfo{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 25px;
+    background-color: rgb(56, 59, 56);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .newsURL{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-left: 25px;
+    background-color: rgb(56, 59, 56);
+    font-family: 'Lucida Sans';
+}
+
+/*Page 4 - Titles for API Data - Static*/
+
+.wrapper .Center_Content .newsHeadline .top{
+    color: black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.wrapper .Center_Content .newsInfo .top{
+    color: black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.wrapper .Center_Content .newsURL .top{
+    color:black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+/*Page 4 - CSS for Data Received From API - Dynamic*/
+
+.wrapper .Center_Content .newsHeadline .bottom{
+    color: white;
+    font-family: "Lucica Sans";
+    font-size: 20px;
+}
+
+.wrapper .Center_Content .newsInfo .bottom{
+    color: white;
+    font-family: "Lucica Sans";
+    font-size: 20px;
+}
+
+.wrapper .Center_Content .newsURL .bottom{
+    color:white;
+    font-family: "Lucica Sans";
+    font-size: 12px;
 }
