@@ -5,7 +5,7 @@ var api_start = "https://api.cryptonator.com/api/full/";
     } 
 
     function coinSearch(){
-        var input = document.getElementById("search").value;
+        var input = document.getElementById("search1").value;
         fetch(api_start + input)
         .then(data => {
             return data.json();
@@ -48,6 +48,26 @@ var api_start = "https://api.cryptonator.com/api/full/";
     
             });
             }
+
+            
+    function coinLookUp(){
+        var input = document.getElementById("search3").value;
+        fetch(api_start + input)
+        .then(data => {
+            return data.json();
+        })
+        .then(response => {
+            console.log(response);
+            console.log(JSON.stringify(response.ticker.price));
+            document.getElementById("price3").innerHTML = (JSON.stringify(response.ticker.price));
+            console.log(JSON.stringify(response.ticker.base));
+            document.getElementById("name3").innerHTML = (JSON.stringify(response.ticker.base));
+            console.log(JSON.stringify(response.ticker.target));
+            document.getElementById("currency3").innerHTML = (JSON.stringify(response.ticker.target));
+            console.log(JSON.stringify(response.ticker.volume));
+            document.getElementById("volume3").innerHTML = (JSON.stringify(response.ticker.volume));
+        });
+        }
 
 
             

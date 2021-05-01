@@ -1,3 +1,18 @@
+/*
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
 *{
     padding:0;
     margin:0;
@@ -96,6 +111,37 @@ section{
     padding: 30px;
 }
 
+
+/*Currency Examples for Submit Button* - Universal*/
+
+.wrapper .Center_Content .Example_List{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+/*Currency Responses from API* - Universal*/
+
+.wrapper .Center_Content .Info_List{
+    width: 300px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+
+
 /*Targets for the 'division_' classes for the different Sections*/
 
 /*Page 1 CSS Division ID's*/
@@ -189,7 +235,22 @@ background-color: black;
 
 /*Page 1 - Currency Examples for Submit Button*/
 
-.wrapper .Center_Content .Example_List{
+.wrapper .Center_Content .cryptoInfo{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 350px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.wrapper .Center_Content .cryptoInfo2{
     width: 300px;
     border: 4px double #cccccc;
     color: white;
@@ -203,7 +264,33 @@ background-color: black;
 
 /*Page 1 - Currency Responses from API*/
 
-.wrapper .Center_Content .Info_List{
+.wrapper .Center_Content .cryptoExplained0{
+    width: 550px;
+    height: 150px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+}
+
+.wrapper .Center_Content .cryptoExplained1{
+    width: 500px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+
+.wrapper .Center_Content .cryptoExplained2{
     width: 300px;
     border: 2px double #cccccc;
     color: white;
@@ -215,10 +302,16 @@ background-color: black;
     font-family: 'Lucida Sans';
 }
 
+.wrapper .Center_Content #cryptoImage{
+   margin-left: 650px;
+   margin-top: -800px;
+   margin-bottom: 150px;
+}
+
 /*Page 1 - Welcome Banner*/
 
 .wrapper .Center_Content #welcome{
-    width: 300px;
+    width: 500px;
     border: 2px double #cccccc;;
     margin: 5px;
     position: center;
@@ -412,6 +505,17 @@ text-align: center;
 
 /*Page 3 CSS- Submit Button 2*/
 
+.wrapper .Center_Content #submit1{
+    background-color: black;
+      border: 3px groove white;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+
 .wrapper .Center_Content #submit2{
     background-color: black;
       border: 3px groove white;
@@ -422,6 +526,17 @@ text-align: center;
       display: inline-block;
       font-size: 16px;
     }
+
+    .wrapper .Center_Content #submit3{
+        background-color: black;
+          border: 3px groove white;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        }
 
 
 /*Page 4 CSS - News*/
