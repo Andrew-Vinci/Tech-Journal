@@ -1,16 +1,29 @@
 /*
-
-
-
-
-
-
-
-
-
-
+.__....__............__.....................................................__.
+|..\..|..\..........|..\...................................................|..\
+|.$$..|.$$._______...\$$.__.....__...______....______...._______...______..|.$$
+|.$$..|.$$|.......\.|..\|..\.../..\./......\../......\../.......\.|......\.|.$$
+|.$$..|.$$|.$$$$$$$\|.$$.\$$\./..$$|..$$$$$$\|..$$$$$$\|..$$$$$$$..\$$$$$$\|.$$
+|.$$..|.$$|.$$..|.$$|.$$..\$$\..$$.|.$$....$$|.$$...\$$.\$$....\../......$$|.$$
+|.$$__/.$$|.$$..|.$$|.$$...\$$.$$..|.$$$$$$$$|.$$......._\$$$$$$\|..$$$$$$$|.$$
+.\$$....$$|.$$..|.$$|.$$....\$$$....\$$.....\|.$$......|.......$$.\$$....$$|.$$
+..\$$$$$$..\$$...\$$.\$$.....\$......\$$$$$$$.\$$.......\$$$$$$$...\$$$$$$$.\$$
+...............................................................................
+...............................................................................
+...............................................................................
+.__....__............__.....................................................__.
+|..\..|..\..........|..\...................................................|..\
+|.$$..|.$$._______...\$$.__.....__...______....______...._______...______..|.$$
+|.$$..|.$$|.......\.|..\|..\.../..\./......\../......\../.......\.|......\.|.$$
+|.$$..|.$$|.$$$$$$$\|.$$.\$$\./..$$|..$$$$$$\|..$$$$$$\|..$$$$$$$..\$$$$$$\|.$$
+|.$$..|.$$|.$$..|.$$|.$$..\$$\..$$.|.$$....$$|.$$...\$$.\$$....\../......$$|.$$
+|.$$__/.$$|.$$..|.$$|.$$...\$$.$$..|.$$$$$$$$|.$$......._\$$$$$$\|..$$$$$$$|.$$
+.\$$....$$|.$$..|.$$|.$$....\$$$....\$$.....\|.$$......|.......$$.\$$....$$|.$$
+..\$$$$$$..\$$...\$$.\$$.....\$......\$$$$$$$.\$$.......\$$$$$$$...\$$$$$$$.\$$
+...............................................................................
+...............................................................................
+...............................................................................
 */
-
 
 
 *{
@@ -107,7 +120,7 @@ margin-right: 8px;
 }
 /*Targets all 'section' tags - Universal*/
 section{
-    height: 100vh;
+    height: 115vh;
     padding: 30px;
 }
 
@@ -171,7 +184,7 @@ section{
     background:linear-gradient(to right, #44a08d, #093637); 
 }
 #division_8{
-    background: linear-gradient(to right, #00bf8f, #001510);
+    background: linear-gradient(to right, #1e6263,#0a725d);
 }
 
 /*Page 3 CSS Division ID's*/
@@ -219,6 +232,34 @@ section{
     background:linear-gradient(to right, #93291e, #ed213a);
 }
 
+
+/*
+._______........................................__...
+|.......\....................................._/..\..
+|.$$$$$$$\.______....______....______........|...$$..
+|.$$__/.$$|......\../......\../......\........\$$$$..
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\........|.$$..
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$........|.$$..
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......._|.$$_.
+|.$$......\$$....$$.\$$....$$.\$$.....\......|...$$.\
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.......\$$$$$$
+...................|..\__|.$$........................
+....................\$$....$$........................
+.....................\$$$$$$.........................
+._______........................................__...
+|.......\....................................._/..\..
+|.$$$$$$$\.______....______....______........|...$$..
+|.$$__/.$$|......\../......\../......\........\$$$$..
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\........|.$$..
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$........|.$$..
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......._|.$$_.
+|.$$......\$$....$$.\$$....$$.\$$.....\......|...$$.\
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.......\$$$$$$
+...................|..\__|.$$........................
+....................\$$....$$........................
+.....................\$$$$$$.........................
+*/
+
 /*Page 1 CSS - Coins/"Hardware"*/
 
 /*Submit Button CSS*/
@@ -235,7 +276,7 @@ background-color: black;
 
 /*Page 1 - Currency Examples for Submit Button*/
 
-.wrapper .Center_Content .cryptoInfo{
+.wrapper .Center_Content .cryptoInfo0{
     width: 300px;
     border: 4px double #cccccc;
     color: white;
@@ -250,8 +291,8 @@ background-color: black;
     text-align: center;
 }
 
-.wrapper .Center_Content .cryptoInfo2{
-    width: 300px;
+.wrapper .Center_Content .cryptoInfo1{
+    width: 150px;
     border: 4px double #cccccc;
     color: white;
     padding: 25px;
@@ -260,7 +301,46 @@ background-color: black;
     padding-left: 25px;
     background-color: black;
     font-family: 'Lucida Sans';
+    font-size: 15px;
+    text-align: center;
 }
+
+.wrapper .Center_Content .cryptoInfo2{
+    width: 150px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 550px;
+    margin-top: -674px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.wrapper .Center_Content .cryptoInfo3{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 350px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+
 
 /*Page 1 - Currency Responses from API*/
 
@@ -289,9 +369,21 @@ background-color: black;
     font-family: 'Lucida Sans';
 }
 
-
 .wrapper .Center_Content .cryptoExplained2{
-    width: 300px;
+    width: 500px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 545px;
+    margin-top: 12px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .cryptoExplained3{
+    width: 500px;
     border: 2px double #cccccc;
     color: white;
     padding: 25px;
@@ -302,11 +394,59 @@ background-color: black;
     font-family: 'Lucida Sans';
 }
 
+.wrapper .Center_Content .cryptoExplained3-middle{
+    width: 500px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 500px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
 .wrapper .Center_Content #cryptoImage{
    margin-left: 650px;
    margin-top: -800px;
-   margin-bottom: 150px;
+   margin-bottom: 350px;
 }
+
+.wrapper .Center_Content #cryptoImage2{
+    margin-left: 650px;
+    margin-top: -800px;
+    margin-bottom: 50px;
+ }
+
+ .wrapper .Center_Content #cryptoImage3{
+    margin-left: 250px;;
+    margin-top: -800px;
+    margin-bottom: 575px;
+ }
+
+ .wrapper .Center_Content #cryptoImage4{
+    margin-left: 800px;;
+    margin-top: -800px;
+    margin-bottom: 625px;
+ }
+
+ .wrapper .Center_Content #cryptoImage5{
+    margin-left: 650px;
+    margin-top: -1000px;
+    margin-bottom: 25px;
+ }
+
+ .wrapper .Center_Content #cryptoImage6{
+    margin-left: 50px;
+    margin-top: -100px;
+    margin-bottom: 75px;
+ }
+
+ .wrapper .Center_Content #cryptoImage7{
+    margin-left: 650px;
+    margin-top: -800px;
+    margin-bottom: 0px;
+ }
 
 /*Page 1 - Welcome Banner*/
 
@@ -357,7 +497,32 @@ background-color: black;
     font-family: 'Lucida Sans';
 }
 
-
+/*
+._______.......................................______..
+|.......\...................................../......\.
+|.$$$$$$$\.______....______....______........|..$$$$$$\
+|.$$__/.$$|......\../......\../......\........\$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\......./......$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$......|..$$$$$$.
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......|.$$_____.
+|.$$......\$$....$$.\$$....$$.\$$.....\......|.$$.....\
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.......\$$$$$$$$
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+._______.......................................______..
+|.......\...................................../......\.
+|.$$$$$$$\.______....______....______........|..$$$$$$\
+|.$$__/.$$|......\../......\../......\........\$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\......./......$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$......|..$$$$$$.
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......|.$$_____.
+|.$$......\$$....$$.\$$....$$.\$$.....\......|.$$.....\
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.......\$$$$$$$$
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+*/
 
 /*Page 2 CSS - Coins*/
 
@@ -389,9 +554,9 @@ text-align: center;
     text-align: center;
 }
 
-.wrapper .Center_Content .bitcoinBackground{
-    width: 250px;
-    height: 450px;
+.wrapper .Center_Content .bitContent{
+    width: 450px;
+    height: 400px;
     border: 4px double #cccccc;
     color: white;
     position: right;
@@ -405,18 +570,177 @@ text-align: center;
     padding-left: 0px;
     background-color: rgb(109, 108, 108);
     font-family: 'Lucida Sans';
+    text-align: center;
 }
 
 
-.wrapper .Center_Content .bitcoinBackground .bitWhitePaperTitle{
-color: black;
-font-family: "Lucida Sans";
-font-size: 30px;
-text-decoration: underline;
-text-align: center;
+.wrapper .Center_Content .bitWhitePaperTitle{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 625px;
+    margin-bottom: 410px;
+    margin-top: -450px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
 }
 
-/*Page 2 CSS - Coins Continued*/
+.wrapper .Center_Content .cryptoYear0{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top:-95px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoFounder0{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoProof0{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoCirculation0{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: -500px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+/*ETH Info*/
+
+.wrapper .Center_Content .ethContent{
+    width: 450px;
+    height: 500px;
+    border: 4px double #cccccc;
+    color: white;
+    position: right;
+    padding: 25px;
+    margin: 50px;
+    margin-right: 150px;
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 0px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+.wrapper .Center_Content .ethWhitePaperTitle{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 625px;
+    margin-bottom: 410px;
+    margin-top: -450px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.wrapper .Center_Content .cryptoYear1{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-top:-185px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoFounder1{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoProof1{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
+
+.wrapper .Center_Content .cryptoCirculation1{
+    width: 250px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-bottom: -500px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+}
 
 .wrapper .Center_Content .ethereumInfo{
     width: 350px;
@@ -464,13 +788,170 @@ text-align: center;
 }
 
 
-.wrapper .Center_Content .ethereumBackground .ethWhitePaperTitle{
-color: black;
-font-family: "Lucida Sans";
-font-size: 30px;
-text-decoration: underline;
-text-align: center;
+/*Binance Info*/
+
+.wrapper .Center_Content .bnbContent{
+    width: 450px;
+    height: 500px;
+    border: 4px double #cccccc;
+    color: white;
+    position: right;
+    padding: 25px;
+    margin: 50px;
+    margin-right: 150px;
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 0px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    text-align: center;
 }
+
+.wrapper .Center_Content .bnbWhitePaperTitle{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 625px;
+    margin-bottom: 410px;
+    margin-top: -450px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.wrapper .Center_Content .binanceInfo{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .binanceInfo .top{
+    color: black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    
+.wrapper .Center_Content .binanceInfo .bottom{
+    font-family: "Lucica Sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+/*XRP Ripple Info*/
+
+.wrapper .Center_Content .xrpContent{
+    width: 450px;
+    height: 500px;
+    border: 4px double #cccccc;
+    color: white;
+    position: right;
+    padding: 25px;
+    margin: 50px;
+    margin-right: 150px;
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 0px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .Center_Content .xrpWhitePaperTitle{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 625px;
+    margin-bottom: 410px;
+    margin-top: -450px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.wrapper .Center_Content .rippleInfo{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .rippleInfo .top{
+    color: black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    
+.wrapper .Center_Content .rippleInfo .bottom{
+    font-family: "Lucica Sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+/*
+._______.......................................______..
+|.......\...................................../......\.
+|.$$$$$$$\.______....______....______........|..$$$$$$\
+|.$$__/.$$|......\../......\../......\........\$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\........|.....$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$.......__\$$$$$\
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......|..\__|.$$
+|.$$......\$$....$$.\$$....$$.\$$.....\.......\$$....$$
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$........\$$$$$$.
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+._______.......................................______..
+|.......\...................................../......\.
+|.$$$$$$$\.______....______....______........|..$$$$$$\
+|.$$__/.$$|......\../......\../......\........\$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\........|.....$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$.......__\$$$$$\
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$......|..\__|.$$
+|.$$......\$$....$$.\$$....$$.\$$.....\.......\$$....$$
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$........\$$$$$$.
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+*/
 
 
 /*Page 3 CSS - Comparison*/
@@ -537,6 +1018,36 @@ text-align: center;
           display: inline-block;
           font-size: 16px;
         }
+
+
+
+
+/*
+._______......................................__....__.
+|.......\....................................|..\..|..\
+|.$$$$$$$\.______....______....______........|.$$..|.$$
+|.$$__/.$$|......\../......\../......\.......|.$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\......|.$$....$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$.......\$$$$$$$$
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$............|.$$
+|.$$......\$$....$$.\$$....$$.\$$.....\............|.$$
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.............\$$
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+._______......................................__....__.
+|.......\....................................|..\..|..\
+|.$$$$$$$\.______....______....______........|.$$..|.$$
+|.$$__/.$$|......\../......\../......\.......|.$$__|.$$
+|.$$....$$.\$$$$$$\|..$$$$$$\|..$$$$$$\......|.$$....$$
+|.$$$$$$$./......$$|.$$..|.$$|.$$....$$.......\$$$$$$$$
+|.$$.....|..$$$$$$$|.$$__|.$$|.$$$$$$$$............|.$$
+|.$$......\$$....$$.\$$....$$.\$$.....\............|.$$
+.\$$.......\$$$$$$$._\$$$$$$$..\$$$$$$$.............\$$
+...................|..\__|.$$..........................
+....................\$$....$$..........................
+.....................\$$$$$$...........................
+*/
 
 
 /*Page 4 CSS - News*/

@@ -1,5 +1,7 @@
 var api_start  = "https://api.coinlore.net/api/ticker/?id=90";
 var api_start2 = "https://api.coinlore.net/api/ticker/?id=80";
+var api_start3 = "https://api.coinlore.net/api/ticker/?id=2710";
+var api_start4 = "https://api.coinlore.net/api/ticker/?id=58";
 
     function refreshPage(){
         window.location.reload();
@@ -44,6 +46,48 @@ var api_start2 = "https://api.coinlore.net/api/ticker/?id=80";
                 document.getElementById("weekChange2").innerHTML = (JSON.stringify(response[0].percent_change_7d));
             });
             };
+
+            function coinDisplay3(){
+                fetch(api_start3)
+                .then(data => {
+                    return data.json();
+                })
+                .then(response => {
+                    console.log(response);
+                    console.log(JSON.stringify(response[0].name));
+                    document.getElementById("name3").innerHTML = (JSON.stringify(response[0].name));
+                    console.log(JSON.stringify(response[0].price_usd));
+                    document.getElementById("price3").innerHTML = (JSON.stringify(response[0].price_usd));
+                    console.log(JSON.stringify(response[0].market_cap_usd));
+                    document.getElementById("marketCap3").innerHTML = (JSON.stringify(response[0].market_cap_usd));
+                    console.log(JSON.stringify(response[0].percent_change_1h));
+                    document.getElementById("hourChange3").innerHTML = (JSON.stringify(response[0].percent_change_1h));
+                    console.log(JSON.stringify(response[0].percent_change_7d));
+                    document.getElementById("weekChange3").innerHTML = (JSON.stringify(response[0].percent_change_7d));
+                });
+                };
+
+
+                
+            function coinDisplay4(){
+                fetch(api_start4)
+                .then(data => {
+                    return data.json();
+                })
+                .then(response => {
+                    console.log(response);
+                    console.log(JSON.stringify(response[0].name));
+                    document.getElementById("name4").innerHTML = (JSON.stringify(response[0].name));
+                    console.log(JSON.stringify(response[0].price_usd));
+                    document.getElementById("price4").innerHTML = (JSON.stringify(response[0].price_usd));
+                    console.log(JSON.stringify(response[0].market_cap_usd));
+                    document.getElementById("marketCap4").innerHTML = (JSON.stringify(response[0].market_cap_usd));
+                    console.log(JSON.stringify(response[0].percent_change_1h));
+                    document.getElementById("hourChange4").innerHTML = (JSON.stringify(response[0].percent_change_1h));
+                    console.log(JSON.stringify(response[0].percent_change_7d));
+                    document.getElementById("weekChange4").innerHTML = (JSON.stringify(response[0].percent_change_7d));
+                });
+                };
         
 
         
