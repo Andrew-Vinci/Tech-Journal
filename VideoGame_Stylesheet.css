@@ -181,25 +181,25 @@ section{
     background: linear-gradient(to right, #1e6263,#0a725d);
 }
 #division_7{
-    background:linear-gradient(to right, #44a08d, #093637); 
+    background:linear-gradient(to right, #0a725d, #1e6263); 
 }
 #division_8{
     background: linear-gradient(to right, #1e6263,#0a725d);
 }
 #division_81{
-    background:linear-gradient(to right, #44a08d, #093637); 
+    background:linear-gradient(to right, #0a725d, #1e6263); 
 }
 #division_82{
     background: linear-gradient(to right, #1e6263,#0a725d);
 }
 #division_83{
-    background:linear-gradient(to right, #44a08d, #093637); 
+    background:linear-gradient(to right, #0a725d, #1e6263); 
 }
 #division_84{
     background: linear-gradient(to right, #1e6263,#0a725d);
 }
 #division_85{
-    background:linear-gradient(to right, #44a08d, #093637); 
+    background:linear-gradient(to right, #0a725d, #1e6263); 
 }
 #division_86{
     background: linear-gradient(to right, #1e6263,#0a725d);
@@ -1099,7 +1099,7 @@ text-align: center;
     padding: 25px;
     margin: 10px;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 150px;
     padding-left: 25px;
     background-color: rgb(109, 108, 108);
     font-family: 'Lucida Sans';
@@ -1116,6 +1116,111 @@ text-align: center;
     margin-bottom: 0px;
     padding-left: 25px;
     background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content #cryptoImageNew{
+    margin-left: 500px;
+    margin-top: -800px;
+    margin-bottom: 400px;
+}
+
+.wrapper .Center_Content #cryptoImageNew1{
+    margin-left: 725px;
+    margin-top: -800px;
+    margin-bottom: 300px;
+}
+
+.wrapper .Center_Content #cryptoImageNew2{
+    margin-left: 475px;
+    margin-top: -800px;
+    margin-bottom: 200px;
+}
+
+.wrapper .Center_Content #cryptoImageNew3{
+    margin-left: 695px;
+    margin-top: -800px;
+    margin-bottom: 100px;
+}
+
+.wrapper .Center_Content #cryptoImageNew4{
+    margin-left: 475px;
+    margin-top: -900px;
+    margin-bottom: 0px;
+}
+
+.wrapper .Center_Content #cryptoImageNew5{
+    margin-left: 695px;
+    margin-top: -900px;
+    margin-bottom: -100px;
+}
+
+.wrapper .Center_Content #cryptoImageNew6{
+    margin-left: 25px;
+    margin-top: -900px;
+    margin-bottom: -167px;
+}
+
+.wrapper .Center_Content #cryptoImageNew7{
+    margin-left: -175px;
+    margin-top: -900px;
+    margin-bottom: 525px;
+}
+
+.wrapper .Center_Content #cryptoImageNew8{
+margin-left: 368px;
+margin-bottom: -130px;
+}
+
+
+.wrapper .Center_Content #exampleCurrency{
+    background-color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px double #cccccc;
+    color: white;
+    width: 150px;
+    position: left;
+    word-spacing: 3px;
+    font-size: 10px;
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content #showTextPage3{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px double #cccccc;
+    color: white;
+    width: 350px;
+    position: left;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .Info_ListPage3{
+    width: 300px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+
+.wrapper .Center_Content .Example_ListPage3{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 25px;
+    background-color: black;
     font-family: 'Lucida Sans';
 }
 
@@ -1145,15 +1250,14 @@ text-align: center;
 
     .wrapper .Center_Content #submit3{
         background-color: black;
-          border: 3px groove white;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-        }
-
+        border: 3px groove white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
 
 
 
