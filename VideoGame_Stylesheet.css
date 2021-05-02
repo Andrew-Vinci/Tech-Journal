@@ -186,6 +186,25 @@ section{
 #division_8{
     background: linear-gradient(to right, #1e6263,#0a725d);
 }
+#division_81{
+    background:linear-gradient(to right, #44a08d, #093637); 
+}
+#division_82{
+    background: linear-gradient(to right, #1e6263,#0a725d);
+}
+#division_83{
+    background:linear-gradient(to right, #44a08d, #093637); 
+}
+#division_84{
+    background: linear-gradient(to right, #1e6263,#0a725d);
+}
+#division_85{
+    background:linear-gradient(to right, #44a08d, #093637); 
+}
+#division_86{
+    background: linear-gradient(to right, #1e6263,#0a725d);
+}
+
 
 /*Page 3 CSS Division ID's*/
 
@@ -406,6 +425,30 @@ background-color: black;
     font-family: 'Lucida Sans';
 }
 
+.wrapper .Center_Content .cryptoExplained4{
+    width: 500px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .cryptoExplained4-middle{
+    width: 500px;
+    border: 2px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 500px;
+    padding-left: 10px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+}
+
 .wrapper .Center_Content #cryptoImage{
    margin-left: 650px;
    margin-top: -800px;
@@ -422,6 +465,11 @@ background-color: black;
     margin-left: 250px;;
     margin-top: -800px;
     margin-bottom: 575px;
+ }
+
+ .wrapper .Center_Content #cryptoImage31{
+    margin-left: 250px;
+    margin-bottom: -200px;
  }
 
  .wrapper .Center_Content #cryptoImage4{
@@ -443,6 +491,24 @@ background-color: black;
  }
 
  .wrapper .Center_Content #cryptoImage7{
+    margin-left: 650px;
+    margin-top: -800px;
+    margin-bottom: 0px;
+ }
+
+ .wrapper .Center_Content #cryptoImage8{
+    margin-left: 650px;
+    margin-top: -1000px;
+    margin-bottom: 25px;
+ }
+
+ .wrapper .Center_Content #cryptoImage9{
+    margin-left: 50px;
+    margin-top: -150px;
+    margin-bottom: 75px;
+ }
+
+ .wrapper .Center_Content #cryptoImage10{
     margin-left: 650px;
     margin-top: -800px;
     margin-bottom: 0px;
@@ -787,7 +853,6 @@ text-align: center;
     font-family: 'Lucida Sans';
 }
 
-
 /*Binance Info*/
 
 .wrapper .Center_Content .bnbContent{
@@ -925,6 +990,76 @@ text-align: center;
     font-size: 25px;
     text-align: center;
 }
+
+/*DOGE Info*/
+
+.wrapper .Center_Content .dogeContent{
+    width: 450px;
+    height: 500px;
+    border: 4px double #cccccc;
+    color: white;
+    position: right;
+    padding: 25px;
+    margin: 50px;
+    margin-right: 150px;
+    margin-left: 550px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    padding-right: 25px;
+    padding-left: 0px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper .Center_Content .dogeWhitePaperTitle{
+    width: 300px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 625px;
+    margin-bottom: 410px;
+    margin-top: -450px;
+    padding-left: 25px;
+    background-color: black;
+    font-family: 'Lucida Sans';
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.wrapper .Center_Content .dogeInfo{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .dogeInfo .top{
+    color: black;
+    font-family: "Lucica Sans";
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    }
+    
+.wrapper .Center_Content .dogeInfo .bottom{
+    font-family: "Lucica Sans";
+    font-size: 25px;
+    text-align: center;
+}
+
 
 /*
 ._______.......................................______..

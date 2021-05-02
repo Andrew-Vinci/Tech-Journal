@@ -2,6 +2,8 @@ var api_start  = "https://api.coinlore.net/api/ticker/?id=90";
 var api_start2 = "https://api.coinlore.net/api/ticker/?id=80";
 var api_start3 = "https://api.coinlore.net/api/ticker/?id=2710";
 var api_start4 = "https://api.coinlore.net/api/ticker/?id=58";
+var api_start5 = "https://api.coinlore.net/api/ticker/?id=2";
+
 
     function refreshPage(){
         window.location.reload();
@@ -88,6 +90,26 @@ var api_start4 = "https://api.coinlore.net/api/ticker/?id=58";
                     document.getElementById("weekChange4").innerHTML = (JSON.stringify(response[0].percent_change_7d));
                 });
                 };
+
+                function coinDisplay5(){
+                    fetch(api_start5)
+                    .then(data => {
+                        return data.json();
+                    })
+                    .then(response => {
+                        console.log(response);
+                        console.log(JSON.stringify(response[0].name));
+                        document.getElementById("name5").innerHTML = (JSON.stringify(response[0].name));
+                        console.log(JSON.stringify(response[0].price_usd));
+                        document.getElementById("price5").innerHTML = (JSON.stringify(response[0].price_usd));
+                        console.log(JSON.stringify(response[0].market_cap_usd));
+                        document.getElementById("marketCap5").innerHTML = (JSON.stringify(response[0].market_cap_usd));
+                        console.log(JSON.stringify(response[0].percent_change_1h));
+                        document.getElementById("hourChange5").innerHTML = (JSON.stringify(response[0].percent_change_1h));
+                        console.log(JSON.stringify(response[0].percent_change_7d));
+                        document.getElementById("weekChange5").innerHTML = (JSON.stringify(response[0].percent_change_7d));
+                    });
+                    };
         
 
         
