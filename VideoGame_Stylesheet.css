@@ -75,7 +75,7 @@ font-size: 45px;
 /*Targets list of sidebar - Universal*/
 .wrapper .sidebar ul li{
     list-style: none;
-    padding: 15px;
+    padding: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -865,6 +865,10 @@ text-align: center;
     font-family: 'Lucida Sans';
 }
 
+.wrapper .Center_Content .ethPicPage2{
+    margin-left:0px;
+}
+
 /*Binance Info*/
 
 .wrapper .Center_Content .bnbContent{
@@ -1518,4 +1522,16 @@ margin-top: -500px;
     margin-left: 65px;
     margin-top: -200px;
     margin-bottom: -30px;
+}
+
+
+.wrapper .Center_Content #cryptoImagePage5{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.wrapper .Center_Content #cryptoImagePage51{
+    margin-left: 100px;
+    margin-bottom: -150px;
+    margin-top: -50px;
 }
