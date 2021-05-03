@@ -215,11 +215,19 @@ section{
     background:linear-gradient(to right, #50023f, #c43287);
 }
 #division_11{
-    background: linear-gradient(to right, #fdc830, #f37335);
+    background: linear-gradient(to right, #c43287, #50023f);
 }
 #division_12{
-    background:linear-gradient(to right, #fc4a1a, #f7b733);
+    background:linear-gradient(to right, #50023f, #c43287);
 }
+#division_121{
+    background: linear-gradient(to right, #c43287, #50023f);
+}
+#division_122{
+    background:linear-gradient(to right, #50023f, #c43287);
+}
+
+
 
 /*Page 4 CSS Division ID's*/
 
@@ -240,15 +248,19 @@ section{
 
 #division_17{
     background:linear-gradient(to right, #ed213a, #93291e);
+    height: 700px;
 }
 #division_18{
     background:linear-gradient(to right, #93291e,#ed213a);
+    height: 700px;
 }
 #division_19{
     background:linear-gradient(to right,  #ed213a, #93291e);
+    height: 700px;
 }
 #division_20{
     background:linear-gradient(to right, #93291e, #ed213a);
+    height: 700px;
 }
 
 
@@ -1156,20 +1168,43 @@ text-align: center;
 }
 
 .wrapper .Center_Content #cryptoImageNew6{
-    margin-left: 25px;
+    margin-left: -875px;
     margin-top: -900px;
-    margin-bottom: -167px;
+    margin-bottom: -187px;
 }
 
 .wrapper .Center_Content #cryptoImageNew7{
-    margin-left: -175px;
+    margin-left: -110px;
     margin-top: -900px;
-    margin-bottom: 525px;
+    margin-bottom: 505px;
 }
 
 .wrapper .Center_Content #cryptoImageNew8{
-margin-left: 368px;
+margin-left: 0px;
 margin-bottom: -130px;
+}
+
+.wrapper .Center_Content #cryptoImageNew81{
+    margin-left: 550px;
+    margin-bottom: -130px;
+    }
+
+.wrapper .Center_Content #cryptoImageNew12{
+    margin-left: 950px;
+    margin-top: -800px;
+    margin-bottom: 500px;
+}
+
+.wrapper .Center_Content #cryptoImageNew13{
+    margin-left: 945px;
+    margin-top: -800px;
+    margin-bottom: 285px;
+}
+
+.wrapper .Center_Content #cryptoImageNew14{
+    margin-left: 945px;
+    margin-top: -800px;
+    margin-bottom: 50px;
 }
 
 
@@ -1199,6 +1234,24 @@ margin-bottom: -130px;
     font-family: 'Lucida Sans';
 }
 
+.wrapper .Center_Content #secondBannerPage3{
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-left: 255px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    border: 4px double #cccccc;
+    color: white;
+    width: 350px;
+    position: left;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    font-size: 25px;
+}
+
 .wrapper .Center_Content .Info_ListPage3{
     width: 300px;
     border: 2px double #cccccc;
@@ -1222,6 +1275,73 @@ margin-bottom: -130px;
     padding-left: 25px;
     background-color: black;
     font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .bitcoinInfoPage3{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .bitcoinInfoPage3 .top{
+color: black;
+font-family: "Lucica Sans";
+font-size: 30px;
+text-decoration: underline;
+text-align: center;
+}
+
+.wrapper .Center_Content .bitcoinInfoPage3 .bottom{
+    font-family: "Lucica Sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.wrapper .Center_Content .ethereumInfoPage3{
+    width: 350px;
+    border: 4px double #cccccc;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    margin-left: 500px;
+    margin-top: -480px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    background-color: rgb(109, 108, 108);
+    font-family: 'Lucida Sans';
+}
+
+.wrapper .Center_Content .ethereumInfoPage3 .top{
+color: black;
+font-family: "Lucica Sans";
+font-size: 30px;
+text-decoration: underline;
+text-align: center;
+}
+
+.wrapper .Center_Content .ethereumInfoPage3 .bottom{
+    font-family: "Lucica Sans";
+    font-size: 25px;
+    text-align: center;
+}
+
+.wrapper .Center_Content .ethPic{
+    margin-left: 500px;
+    margin-top: -500px;
+    margin-bottom: 500px;
+}
+
+.wrapper .Center_Content #cryptoImagePage3{
+    margin-left:145px;
+    margin-top: 100px;
 }
 
 /*Page 3 CSS- Submit Button 2*/
@@ -1293,7 +1413,7 @@ margin-bottom: -130px;
 
 
 .wrapper .Center_Content .newsHeadline{
-    width: 350px;
+    width: 750px;
     border: 4px double #cccccc;
     color: white;
     padding: 25px;
@@ -1306,7 +1426,7 @@ margin-bottom: -130px;
 }
 
 .wrapper .Center_Content .newsInfo{
-    width: 350px;
+    width: 550px;
     border: 4px double #cccccc;
     color: white;
     padding: 25px;
@@ -1319,7 +1439,7 @@ margin-bottom: -130px;
 }
 
 .wrapper .Center_Content .newsURL{
-    width: 350px;
+    width: 150px;
     border: 4px double #cccccc;
     color: white;
     padding: 25px;
@@ -1336,21 +1456,23 @@ margin-bottom: -130px;
 .wrapper .Center_Content .newsHeadline .top{
     color: black;
     font-family: "Lucica Sans";
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: underline;
+    text-align: center;
 }
 
 .wrapper .Center_Content .newsInfo .top{
     color: black;
     font-family: "Lucica Sans";
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: underline;
+    text-align: center;
 }
 
 .wrapper .Center_Content .newsURL .top{
     color:black;
     font-family: "Lucica Sans";
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -1373,4 +1495,27 @@ margin-bottom: -130px;
     color:white;
     font-family: "Lucica Sans";
     font-size: 12px;
+}
+
+.wrapper .Center_Content #cryptoNewsImage{
+margin-left: 750px;
+margin-top: -500px;
+}
+
+.wrapper .Center_Content #cryptoNewsImage1{
+    margin-left: 850px;
+    margin-top: -700px;
+    margin-bottom: 350px;
+}
+
+.wrapper .Center_Content #cryptoNewsImage2{
+    margin-left: 210px;
+    margin-top: -200px;
+    margin-bottom: -50px;
+}
+
+.wrapper .Center_Content #cryptoNewsImage3{
+    margin-left: 65px;
+    margin-top: -200px;
+    margin-bottom: -30px;
 }
