@@ -1,1 +1,1 @@
-# Cryptocurrency Website
+# Tech Journal
